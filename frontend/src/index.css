@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.watermark-overlay {
+  background-image: linear-gradient(rgba(248, 250, 252, 0.95), rgba(248, 250, 252, 0.95)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAM5Vpq5yoIqq3k_4YLMD2DZnfH_T0NSARtNBFXJPTZaaUMMZB_WfNHvOtJl6XeITvrxr8LhajgMkhCE2X0dRPZHf2WzjkdyFJj4D-AoQfK-ETrTfwt9wX2pFqqx8460eOK22aVWly7Y5328fTQ-XVg4LTP31xq_92XBbXgR8QBcdEmeGiQaECN2hkzWl3No_fNtXG8wsQxiHmGSieY4hkw1K5U5DmlTkYFJ33HNtl-mq1ctLw4vslHEWXF20PFGr95-H8ZNi_nJ8Y");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+}
